@@ -93,16 +93,20 @@ asymmetric bulk of the search space remains untouched: **the gap
 "93 or 94" is still open**, but it is now provably not hiding behind
 any natural symmetry.
 
-As a by-product, the symmetric search produced **70 new
-arrangements**, all with combinatorial 120°-rotation symmetry and all
-isomorphic to **none** of the 2,337 in this package (exact canonical
-forms — free random search never lands on the measure-zero symmetric
-subspace, so symmetry had to be imposed to find them). 69 come from
-the C3 orbital annealing kernel — 48 of them straightened to real
-lines with exact rational certification — and are bundled in
-[`c3_symmetric/`](c3_symmetric/); the 70th was found by the SAT model
-itself ([lines](c3_symmetric_93_lines.json), lines colored by
-rotation orbit in the figure):
+As a by-product, the symmetric search produced **69 new
+arrangements** (70 entries), all with combinatorial 120°-rotation
+symmetry and all isomorphic to **none** of the 2,337 in this package
+(exact canonical forms — free random search never lands on the
+measure-zero symmetric subspace, so symmetry had to be imposed to find
+them). 69 come from the C3 orbital annealing kernel — 48 of them
+straightened to real lines with exact rational certification — and are
+bundled in [`c3_symmetric/`](c3_symmetric/); the 70th entry was found
+by the SAT model itself ([lines](c3_symmetric_93_lines.json), lines
+colored by rotation orbit in the figure), but an independent recheck
+(2026-10-23, `esperimenti/isomorfismo/isocheck`) showed it is
+isomorphic to `c3_03`, so it is a second realization of a known type,
+not a new one. The same recheck confirmed that the 2,357 arrangements
+of this package are pairwise non-isomorphic, and so are the 69:
 
 ![A 93-triangle arrangement of 18 real lines with combinatorial
 3-fold rotational symmetry, lines colored by orbit](c3_symmetric_93.svg)

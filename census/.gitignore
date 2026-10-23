@@ -1,0 +1,3 @@
+census-kobon
+src/*.o
+tmp/
