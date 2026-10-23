@@ -76,6 +76,10 @@ sola 965 s contro 454 s del totale). Prima di B1-B4 conviene:
   pieno e checkpoint naturali (niente ore perse a uno spegnimento).
 Guadagno atteso sulla stessa macchina: 5-8×.
 
+Scelta di progetto (utente, 2026-10-23): **10 lavoratori su 12 core**,
+due core liberi per il sistema. Il numero va parametrico (`-j`, default
+10 su questa macchina).
+
 ## Vincoli di contorno
 
 - Tutto in C; kissat in ~/.local/bin; risultati nelle cartelle k{n} del
