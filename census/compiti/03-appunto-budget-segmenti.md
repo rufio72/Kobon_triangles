@@ -64,6 +64,18 @@ generale.
   di B3 ma a 18 rette: istanze dure, da affrontare con cube-and-conquer
   e/o macchina a nolo, dopo che B1–B3 hanno collaudato il metodo.
 
+## Prerequisito tecnico: usare i 12 core (B0)
+
+Oggi il censimento usa ~2 core su 12: kissat è mono-thread,
+l'enumerazione è sequenziale (blocco dopo ogni soluzione) e `--parti` è
+spento perché le partizioni grosse sono sbilanciate (su n=9 una parte da
+sola 965 s contro 454 s del totale). Prima di B1-B4 conviene:
+- partizioni molto più fini dei core (100-200 parti) con coda di lavoro:
+  chi finisce pesca la successiva — lo sbilanciamento si media;
+- per i tetti UNSAT, cube-and-conquer: cubi indipendenti = parallelismo
+  pieno e checkpoint naturali (niente ore perse a uno spegnimento).
+Guadagno atteso sulla stessa macchina: 5-8×.
+
 ## Vincoli di contorno
 
 - Tutto in C; kissat in ~/.local/bin; risultati nelle cartelle k{n} del
