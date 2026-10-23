@@ -1,0 +1,16 @@
+# n=10 T=25 degenere 8 di 49
+# punti multipli (rette 1-based): nessuno
+# classi parallele: {6 7}
+# metodo: modello CNF degenere + kissat 4.0.4, validazione con wiring generalizzato, tabella canonica (minimo delle presentazioni valide)
+# canone-eventi (canonical_sha256): b347a863fc2153ed307d5e3b01a7f6d6394c00f19660f53649af4e5b9722e37d
+# riga r: eventi lungo la retta r; fra parentesi le rette di un punto multiplo; le parallele a r non compaiono
+2 3 4 6 5 8 7 10 9
+1 3 6 4 8 5 10 7 9
+1 2 6 10 8 9 5 7 4
+1 6 2 8 10 5 9 7 3
+6 1 8 2 10 4 9 3 7
+5 1 4 2 3 10 9 8
+8 1 10 2 9 4 3 5
+7 1 5 2 4 10 3 9 6
+10 1 2 7 4 5 3 8 6
+9 1 7 2 5 4 8 3 6

@@ -24,3 +24,18 @@ A table has 4 rows; row r lists, in order along pseudoline r, the 3 other pseudo
 This census covers **simple** arrangements only (no triple points, no parallel lines) at the **pseudoline** level. Realization with straight lines in rational coordinates (as in k14–k18) and degenerate arrangements (triple points, parallels) are future extensions and are not covered here.
 
 Produced by `census/census-kobon` in this repository.
+
+## Degenerate arrangements (census extension, 2026-10-23)
+
+Allowing multiple points and parallel lines (counting convention of the
+published records: a line through a vertex only touches the triangle),
+the census at 2 triangles finds 2 degenerate types (`degenere1.txt` … `degenere2.txt`).
+Total types, simple + degenerate: 1 + 2 = 3.
+Ceiling at 3 with degeneracies: **UNSAT** (kissat, 0.0 s).
+Method: extended CNF model (see census/), kissat 4.0.4, validation by
+generalized wiring reconstruction.
+Parallelism is transitive (classes of directions, as for straight lines);
+types are pseudoline arrangements up to relabeling, reversal and
+reflection. Solutions rejected by the wiring validation: 3.
+In a `degenere*.txt` table row r lists the events along line r; lines
+through a common point are in parentheses, lines parallel to r are absent.

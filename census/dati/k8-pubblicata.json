@@ -1,0 +1,20 @@
+{
+ "k": 8,
+ "count": 15,
+ "lines_frac": [
+  ["0", "-1", "9805/13478"],
+  ["-1/2", "-1", "27/2"],
+  ["-3/2", "-1", "-76090/6739"],
+  ["-7/2", "-1", "-20433/6739"],
+  ["17/2", "-1", "277/2"],
+  ["2", "-1", "153053/13478"],
+  ["1", "-1", "117795/13478"],
+  ["1/2", "-1", "-11/2"]
+ ],
+ "line_equation": "a*x + b*y = c",
+ "declared_triple_points": [[0, 2, 6], [3, 5, 6]],
+ "declared_parallel_pairs": [],
+ "structure": "2 triple points",
+ "provenance": "published 15-triangle solution for 8 lines, gallery linked from OEIS A006066 (ud1/kobon-solutions certificate 8-1yvz24guzamh9, gens \"0 2 4 6 5 4 3 2 1 0 2 4 3 6 4* 2* 1 2 3 6 5 4 3 5\"); numeric data only, copied exactly",
+ "source_url": "https://raw.githubusercontent.com/ud1/kobon-solutions/HEAD/gallery/certificates/8/8-1yvz24guzamh9.json"
+}
