@@ -1,0 +1,5 @@
+*.o
+verify_direct_exact
+classify
+compare_bader
+build/estrai

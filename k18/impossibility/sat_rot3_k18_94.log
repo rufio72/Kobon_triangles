@@ -1,0 +1,4 @@
+  [rot3_k18_94] gen 20.7s | kissat 5931.7s -> UNSATISFIABLE
+  [rot3_k18_94] drat-trim 113.1s -> VERIFICATO
+  [rot3_k18_94] atteso ?: OK
+FINITO 94: UNSATISFIABLE

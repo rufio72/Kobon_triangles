@@ -1,0 +1,4 @@
+  [rot3_k18_93] gen 30.9s | kissat 177.0s -> SATISFIABLE
+  [rot3_k18_93] estratto: count_comb = 93, simmetria C3 OK
+  [rot3_k18_93] atteso ?: OK
+FINITO 93: SATISFIABLE

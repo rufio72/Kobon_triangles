@@ -1,0 +1,56 @@
+Risultati scritti in /home/rufio72/git/kobon_triangles_k18/esperimenti/risultati_sotto17.json
+
+Arrangiamenti elaborati: 2357; conteggi sotto-17: 42426 (18 per arrangiamento)
+Distribuzione complessiva: 77:30458 78:6910 79:2666 80:1183 81:580 82:369 83:160 84:79 85:21
+Conteggi sotto 77: 0
+Distribuzione dei massimi per arrangiamento: 78:1 79:363 80:821 81:543 82:369 83:160 84:79 85:21
+
+17 perfetti (sotto-17 = 85): 21
+- all_43: rette tolte [0]
+    retta 0: in triple_points: sì [[0, 10, 17]]; in parallel_pairs: no []
+- all_134: rette tolte [4]
+    retta 4: in triple_points: sì [[0, 4, 10]]; in parallel_pairs: no []
+- all_273: rette tolte [12]
+    retta 12: in triple_points: no []; in parallel_pairs: no []
+- all_336: rette tolte [17]
+    retta 17: in triple_points: no []; in parallel_pairs: no []
+- all_354: rette tolte [10]
+    retta 10: in triple_points: no []; in parallel_pairs: no []
+- all_479: rette tolte [15]
+    retta 15: in triple_points: no []; in parallel_pairs: no []
+- all_514: rette tolte [2]
+    retta 2: in triple_points: no []; in parallel_pairs: no []
+- all_608: rette tolte [11]
+    retta 11: in triple_points: no []; in parallel_pairs: no []
+- all_832: rette tolte [8]
+    retta 8: in triple_points: no []; in parallel_pairs: no []
+- all_839: rette tolte [16]
+    retta 16: in triple_points: no []; in parallel_pairs: no []
+- all_897: rette tolte [5]
+    retta 5: in triple_points: no []; in parallel_pairs: no []
+- all_953: rette tolte [3]
+    retta 3: in triple_points: no []; in parallel_pairs: no []
+- all_1032: rette tolte [1]
+    retta 1: in triple_points: no []; in parallel_pairs: no []
+- all_1052: rette tolte [5]
+    retta 5: in triple_points: no []; in parallel_pairs: no []
+- all_1152: rette tolte [5]
+    retta 5: in triple_points: no []; in parallel_pairs: no []
+- all_1558: rette tolte [17]
+    retta 17: in triple_points: no []; in parallel_pairs: no []
+- all_1562: rette tolte [13]
+    retta 13: in triple_points: no []; in parallel_pairs: no []
+- all_1761: rette tolte [12]
+    retta 12: in triple_points: no []; in parallel_pairs: no []
+- sol4: rette tolte [17]
+    retta 17: in triple_points: sì [[3, 8, 17], [9, 15, 17], [10, 14, 17]]; in parallel_pairs: no []
+- sol9: rette tolte [1]
+    retta 1: in triple_points: sì [[1, 4, 14], [1, 9, 17]]; in parallel_pairs: no []
+- sol11: rette tolte [13]
+    retta 13: in triple_points: sì [[2, 8, 13], [11, 13, 14]]; in parallel_pairs: no []
+
+Errori: 0
+
+real	8m5,293s
+user	95m15,057s
+sys	0m3,372s

@@ -1,0 +1,4 @@
+  [par_k18_3cp_94] gen 0.8s | kissat 136.6s -> UNSATISFIABLE
+  [par_k18_3cp_94] drat-trim 7.1s -> VERIFICATO
+  [par_k18_3cp_94] atteso ?: OK
+FINITO par_k18_3cp_94: UNSATISFIABLE

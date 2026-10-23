@@ -1,0 +1,4 @@
+  [mir_k18_94] gen 15.6s | kissat 14.9s -> UNSATISFIABLE
+  [mir_k18_94] drat-trim 18.5s -> VERIFICATO
+  [mir_k18_94] atteso ?: OK
+FINITO mir 94: UNSATISFIABLE
