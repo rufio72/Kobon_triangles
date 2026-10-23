@@ -7,10 +7,13 @@ RADICE=$(dirname "$QUI")
 cd "$QUI"
 make -s
 RIEP=$(mktemp)
+ESITO=0
 trap 'rm -f "$RIEP"' EXIT
 for n in 3 4 5 6 7 8 9 10; do
     echo "=== n = $n ==="
-    ./census-kobon "$n" --out "$RADICE/k$n" | tee /dev/stderr | grep '^RIEPILOGO' >> "$RIEP"
+    USCITA=$(./census-kobon "$n" --out "$RADICE/k$n") || ESITO=$?
+    printf '%s\n' "$USCITA"
+    printf '%s\n' "$USCITA" | grep '^RIEPILOGO' >> "$RIEP"
     if [ "$n" -le 6 ]; then
         ./census-kobon "$n" --brute
     fi
@@ -21,3 +24,4 @@ printf '%-3s | %-3s | %-4s | %-10s | %s\n' n T tipi "UNSAT T+1" "scartate non re
 while read -r _ n t tipi tetto scartate; do
     printf '%-3s | %-3s | %-4s | %-10s | %s\n' "$n" "$t" "$tipi" "$tetto" "$scartate"
 done < "$RIEP"
+exit "$ESITO"

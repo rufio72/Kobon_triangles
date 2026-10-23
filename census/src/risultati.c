@@ -72,6 +72,9 @@ static void scrivi_readme(const char *dir, int n, int T, int ntipi,
     fprintf(f, "- Lines: **%d**\n", n);
     fprintf(f, "- Maximum number of triangles (OEIS A006066): **%d**\n", T);
     fprintf(f, "- Number of isomorphism types: **%d**\n", ntipi);
+    fprintf(f, "- Enumeration at %d triangles: SAT model allowing at most "
+               "%d finite segments not on a triangle (%d·%d − 3·%d)\n",
+            T, m, n, n - 2, T);
     fprintf(f, "- Upper bound check at %d triangles: ", T + 1);
     if (m1 < 0)
         fprintf(f, "impossible by segment counting (%d·%d − 3·%d < 0)\n",

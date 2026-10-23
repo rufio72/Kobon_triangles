@@ -3,6 +3,7 @@
 - Lines: **8**
 - Maximum number of triangles (OEIS A006066): **15**
 - Number of isomorphism types: **0**
+- Enumeration at 15 triangles: SAT model allowing at most 3 finite segments not on a triangle (8·6 − 3·15)
 - Upper bound check at 16 triangles: **UNSAT** (SAT model with at most 0 segments not on a triangle, kissat)
 
 ## Files
