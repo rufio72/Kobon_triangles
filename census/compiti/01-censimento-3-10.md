@@ -309,3 +309,7 @@ in alternativa un unico `soluzioni.json` (array di tabelle) più il README.
 ## Decisioni della chat principale (2026-10-23)
 
 1-3: preferenze accettate come da proposta (blocco a livello di classe canonica; formato tipoN.txt + README per cartella; brute n=7 facoltativa). 4 (scelta di progetto, lingua dei README in k3..k10): inglese, come i README pubblicati di k14-k18 — coerenza del repo pubblico; l'utente può chiedere di cambiarla.
+
+## Esito (2026-10-23)
+
+Ciclo passato. Sviluppatore: censimento completo n=3..10, tutte le verifiche del brief passate, più n=7 in forza bruta (facoltativo). Risultato: tipi semplici al massimo noto = 1,1,1,2,1,0,1,36 per n=3..10. Lo 0 di n=8 è reale e triplamente confermato (SAT su tutti i multiset -L; forza bruta esaustiva su 1.232.944 arrangiamenti semplici di 8 pseudorette: massimo semplice 14 con 17 classi; coerenza con BBL Teorema 1.4, tetto non raggiunto per 8). Verificatore indipendente: tutte le riesecuzioni coincidono; il suo dubbio su n=8 («probabile errore del modello») nasce dal fatto che il brief dava 15 come massimo senza distinguere semplice/degenere — chiarito dall'analisi dello sviluppatore. Il 15 a n=8 richiede degenerazioni: prima prova nel progetto che le degenerazioni battono strettamente i semplici. Token: analista (Fable) 97k, sviluppatore (Opus) 111k, verificatore (Sonnet) 26k.
