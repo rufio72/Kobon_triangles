@@ -10,7 +10,8 @@ its own README, exact rational data, verifiers and checksums.
 | `k16/` | 16 | 72 | 307 pairwise non-isomorphic optimal solutions |
 | `k17/` | 17 | 85 | 21 optimal arrangements in 8 isomorphism classes, extracted as sub-arrangements of the k=18 record solutions; tools in C |
 | `k18/` | 18 | 93 | 2357+ pairwise non-isomorphic record arrangements, SAT impossibility results for the symmetric families, sub-arrangement analysis |
-| `census/` | 3–12 | — | work in progress: exhaustive census of optimal types per n (C + SAT); results will land in `k3/` … `k12/` |
+| `k3/` … `k10/` | 3–10 | — | exhaustive census of simple optimal types per n (C + SAT, UNSAT proofs at max+1): 1, 1, 1, 2, 1, 0, 1, 36 types. At n=8 no simple arrangement reaches 15 (simple maximum is 14, matching Bartholdi–Blanc–Loisel): the known 15 needs degeneracies |
+| `census/` | — | — | the census tool (C + kissat); next: n=11–12, then degenerate arrangements |
 
 Status: everything here is verified in-house, pending external review.
 Licensing: each package carries its own LICENSE (CC-BY-4.0).
